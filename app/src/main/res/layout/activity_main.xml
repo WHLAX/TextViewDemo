@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.textviewdemo.MainActivity"
+    android:orientation="vertical"
+     >
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="铁血豪胆——乔治.史密斯.巴顿"
+        android:textSize="25sp"
+        />
+    
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="西点军魂——德怀特·戴维·艾森豪威尔"
+        android:textSize="25sp"
+        />
+    
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="沙漠之狐——埃尔温·隆美尔"
+        android:textSize="25sp"
+        />
+    
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="闪击英雄——海因茨·威廉·古德里安"
+        android:textSize="25sp"
+        />
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="闪击伯爵——弗里茨·埃里希·冯·曼施泰因"
+        android:textSize="25sp"
+        />
+    <TextView 
+        android:id="@+id/tv6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="跋扈之将——道格拉斯.麦克阿瑟"
+        android:textSize="25sp"
+        />
+    <TextView 
+        android:id="@+id/tv7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="战场雄狮——伯纳德.劳.蒙哥马利"
+        android:textSize="25sp"
+        />
+</LinearLayout>
